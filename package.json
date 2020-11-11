@@ -4,7 +4,7 @@
   "description": "A quick demo of web components.",
   "main": "index.js",
   "scripts": {
-    "dev" : "nodemon --exec \"http-serve\" -e js,mjs,json,html,css",
+    "dev" : "nodemon --exec \"http-serve -a localhost\" -e js,mjs,json,html,css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
