@@ -17,6 +17,7 @@ window.addEventListener('load', () => {
             });
 
             console.log(newsContent);
+            document.querySelector('main').innerHTML = '';
             document.querySelector('main').appendChild(newsContent);
 
         })
