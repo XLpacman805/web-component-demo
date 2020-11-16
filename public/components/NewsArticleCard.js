@@ -12,6 +12,9 @@ class NewsArticleCard extends HTMLElement {
             <style> 
                 .article {
                     background-color: white;
+                    max-width: 90vw;
+                    max-height: 500px;
+                    min-height: 500px;
                 }
 
                 h2 {
@@ -20,11 +23,29 @@ class NewsArticleCard extends HTMLElement {
                     color: ${theme.colors.secondaryText};
                     margin-bottom: 0rem;
                     padding: 1rem 0rem 1rem 1rem;
+                    height: 1rem;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    white-space: nowrap;
                 }
 
                 img {
-                    width:100%;
-                    height: auto;
+                    max-width: 600px;
+                    width: 100%;
+                    height: 300px;
+                    object-fit: cover;
+                }
+
+                @media only screen and (min-width: ${theme.breakpoints.mobile}) and (max-width: ${theme.breakpoints.desktop}) {
+                    .article {
+                        max-width: 600px;
+                    }
+                }
+
+                @media only screen and (min-width: ${theme.breakpoints.desktop}) {
+                    .article {
+                        max-width: 30vw;
+                    }
                 }
 
             </style>

@@ -9,6 +9,12 @@ const theme = {
         secondary: '#00796b',
         secondaryText: 'white',
         secondaryAnchor: 'yellow'
+    },
+    breakpoints : {
+        mobile: '640px',
+        tablet: '768px',
+        desktop: '1024px',
+        desktopLarge : '1280px'
     }
 }
 

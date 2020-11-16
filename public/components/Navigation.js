@@ -9,7 +9,6 @@ class Navigation extends HTMLElement {
         this.root.innerHTML = `
             <style>            
                 nav {
-                    width: 100%;
                     background-color: ${theme.colors.primary};
                     color: ${theme.colors.primaryText};
                     padding: 1rem 0rem 1rem 1rem;
