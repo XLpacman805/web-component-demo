@@ -1,6 +1,7 @@
 # Web Component Demo #
 
 A quick demo of web components, shadow dom, and CSS in JS.
+https://web-component-news-001.web.app/
 
 ## Dev Setup ## 
 
