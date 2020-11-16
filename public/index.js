@@ -2,6 +2,7 @@
 
 import { getTopHeadlines } from "./services/newsService.js";
 import './components/NewsArticleCard.js';
+import './components/Navigation.js';
 
 window.addEventListener('load', () => {
     // Fetch the news 
