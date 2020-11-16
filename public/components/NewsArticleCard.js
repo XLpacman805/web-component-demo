@@ -13,8 +13,8 @@ class NewsArticleCard extends HTMLElement {
                 .article {
                     background-color: white;
                     max-width: 90vw;
-                    max-height: 500px;
-                    min-height: 500px;
+                    max-height: 600px;
+                    min-height: 600px;
                 }
 
                 h2 {
