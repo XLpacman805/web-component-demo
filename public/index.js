@@ -12,9 +12,11 @@ window.addEventListener('load', () => {
             let newsContent = document.createDocumentFragment(); 
             
             data.articles.forEach(article => {
-                const newsArticleCard = document.createElement('news-article-card');
-                newsArticleCard.article = article;
-                newsContent.appendChild(newsArticleCard);
+                if (article.title && article.urlToImage && article.description && article.publishedAt && article.url) {
+                    const newsArticleCard = document.createElement('news-article-card');
+                    newsArticleCard.article = article;
+                    newsContent.appendChild(newsArticleCard);
+                }
             });
 
             console.log(newsContent);
