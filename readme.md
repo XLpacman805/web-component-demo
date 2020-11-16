@@ -1,6 +1,6 @@
 # Web Component Demo #
 
-A quick demo of web components. 
+A quick demo of web components, shadow dom, and CSS in JS.
 
 ## Dev Setup ## 
 
