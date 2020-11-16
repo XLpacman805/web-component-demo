@@ -7,7 +7,7 @@ import './components/Navigation.js';
 window.addEventListener('load', () => {
     // Fetch the news 
     getTopHeadlines('us').then(response => response.json())
-        .then(data => {;
+        .then(data => {
             // Render the news cards components
             let newsContent = document.createDocumentFragment(); 
             
